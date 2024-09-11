@@ -1,0 +1,28 @@
+.card-block p{
+
+    padding-left: 60px;
+    padding-right: 25px;
+}
+
+section{
+
+    margin-bottom: 100px;
+}
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
